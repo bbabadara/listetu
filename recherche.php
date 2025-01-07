@@ -1,5 +1,5 @@
 <?php
-
+var_dump($_SESSION["etudiants"]);
 if (isset($_REQUEST["recherche"])) {
     $tel = $_REQUEST["tel"];
     $etudiant = findEtudiantByTel($tel);
